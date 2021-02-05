@@ -23,7 +23,7 @@ sleep $seed_sleep
 
 # Pick the right GIF for the occasion.
 if [ $BUILDKITE_PARALLEL_JOB == 0 ]; then
-  inline_image 'artifact://artifacts/kirk.gif' "Let's Begin!"
+  inline_image 'artifact://artifacts/kirk.gif' "Do it"
 else
   inline_image 'artifact://artifacts/kirkandbones.gif' "Row Row Row Your Boat"
 fi
