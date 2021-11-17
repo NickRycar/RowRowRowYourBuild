@@ -4,4 +4,4 @@ steps:
     parallelism: 10
     artifact_paths: "artifacts/*"
     agents:
-      queue: "default"
+      queue: "graviton"
