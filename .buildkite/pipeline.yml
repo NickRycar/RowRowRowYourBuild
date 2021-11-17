@@ -1,7 +1,7 @@
 steps:
   - label: ":console:"
     command: "rowboat.sh"
-    parallelism: 4
+    parallelism: 10
     artifact_paths: "artifacts/*"
     agents:
       queue: "graviton"
